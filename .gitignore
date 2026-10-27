@@ -1,21 +1,26 @@
-# Dependências e Builds
+# Node / Frontend
 node_modules/
+.expo/
 dist/
 build/
-out/
-.next/
-.angular/cache/
+coverage/
 
-# Arquivos de bloqueio e pacotes
-*.lock
-package-lock.json
-pnpm-lock.yaml
+# Java / Backend
+target/
+*.class
+data/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+.vscode/
+*.iml
 
 # Logs e arquivos temporários
 *.log
 *.tmp
-.cache/
-coverage/
-
-.expo/
 *.exe
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+# Dependências e Builds
+node_modules/
+dist/
+build/
+out/
+.next/
+.angular/cache/
+
+# Arquivos de bloqueio e pacotes
+*.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+.cache/
+coverage/
+
+.expo/
+*.exe
